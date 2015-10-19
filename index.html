@@ -12,7 +12,7 @@
             <a class="logo"><img src="http://placehold.it/150x100" alt="Дизайн студия Nёrds" width="140" height="56"></a>
             <nav class="main-navigation">
                 <ul>
-                    <li class="active" href="#">Студия</li>
+                    <li><a class="active" href="#">Студия</a></li>
                     <li><a href="#">Клиенты</a></li>
                     <li><a href="#">Магазин</a></li>
                     <li><a href="#">Контакты</a></li>
@@ -73,76 +73,44 @@
         </section>
         
         <section class="about">
-            <div class="about-row">
-                <div class="about-col-left">
-                    <h1>Мы — маленькая, но гордая<br> дизайн-студия из Краснодара.</h1>
-                    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-                </div>
-                <div class="about-col-right">
-                    <img class="logo-since" src="http://placehold.it/150x100" alt="Nerds since 2004" width="230" height="119">
-                </div>
+            <div class="about-col-left">
+                <h1 class="about-slogan">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
+                <p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+                <h2 class="about-title">Выполняем заказы на разработку:</h2>
+                <ul>
+                    <li>Веб-сайтов любой сложности</li>
+                    <li>Мобильных приложений для iOS и Android</li>
+                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+                </ul>
             </div>   
                 
-            <div class="about-row">
-                <div class="about-col-left">
-                    <div class="about-col-title">Выполняем заказы на разработку:</div>
-                    <ul>
-                        <li>Веб-сайтов любой сложности</li>
-                        <li>Мобильных приложений для iOS и Android</li>
-                        <li>Слайдшоу и видео для корпоративных презентаций</li>
-                    </ul>
-                </div>
-                <div class="about-col-right">
-                    <div class="about-col-title">Как мы работаем:</div>
-                    <ul>
-                        <li>С самоотдачей 146%</li>
-                        <li>Соблюдая сроки на 100%</li>
-                        <li>По предоплате 50%</li>
-                    </ul>
-                </div>
+            <div class="about-col-right">
+                <img class="logo-since" src="http://placehold.it/150x100" alt="Nerds since 2004" width="230" height="119">
+                <h2 class="about-title">Как мы работаем:</h2>
+                <ul>
+                    <li>С самоотдачей 146%</li>
+                    <li>Соблюдая сроки на 100%</li>
+                    <li>По предоплате 50%</li>
+                </ul>
             </div>   
         </section>
         
         <section class="clients">
             <a class="clients-item" href="#">
-                <img src="http://placehold.it/150x100" alt="Glukhanko" width="" height="">
+                <img src="http://placehold.it/150x100" alt="Glukhanko" width="150" height="100">
             </a>
             <a class="clients-item" href="https://htmlacademy.ru/">
-                <img src="http://placehold.it/150x100" alt="HTMLAcademy" width="" height="">
+                <img src="http://placehold.it/150x100" alt="HTMLAcademy" width="150" height="100">
             </a>
             <a class="clients-item" href="#">
-                <img src="http://placehold.it/150x100" alt="Barbershop Borodinski" width="" height="">
+                <img src="http://placehold.it/150x100" alt="Barbershop Borodinski" width="150" height="100">
             </a>
         </section>
     </div>
     
     <footer class="main-footer">
         <div class="map"></div>
-        
-        <div class="write-us">
-          <div class="write-us-title">Nёrds design studio</div>
-          <p class="city">350000, Краснодар,<br> ул. Головатого, 100</p>
-          <p class="phone">тел. +7 (861) 275-75-75</p>
-          <a class="btn btn-red" href="#">Напишите нам</a>
-        </div>
-        
-        <div class="write-us-form">
-            <form action="#" method="post">
-
-                <label for="name">Ваше имя:</label>
-                <input class="input-check" id="name" name="name" type="text" placeholder="Представьтесь, пожалуйста" required>
-
-                <label for="email">Ваш e-mail:</label>
-                <input class="input-check" id="email" name="email" type="email" placeholder="Для отправки ответа" required>
-
-                <label for="text">Текст письма:</label>
-                <textarea id="text" name="text" placeholder="В свободной форме" required></textarea>
                 
-                <input class="btn btn-red" type="submit" value="Отправить">
-                <input class="btn" type="reset" value="Отмена">
-            </form> 
-        </div>
-        
         <div class="social-container">
             <div class="footer-socials">
                 <a class="btn icon-vk" href="#">vkontakte</a>
@@ -155,5 +123,28 @@
             </div>
         </div>
     </footer>
+    
+    <div class="write-us-form">
+        <div class="write-us">
+          <div class="write-us-title">Nёrds design studio</div>
+          <p class="city">350000, Краснодар,<br> ул. Головатого, 100</p>
+          <p class="phone">тел. +7 (861) 275-75-75</p>
+          <a class="btn btn-red" href="#">Напишите нам</a>
+        </div>
+        
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input class="input-check" id="name" name="name" type="text" placeholder="Представьтесь, пожалуйста" required>
+
+            <label for="email">Ваш e-mail:</label>
+            <input class="input-check" id="email" name="email" type="email" placeholder="Для отправки ответа" required>
+
+            <label for="text">Текст письма:</label>
+            <textarea id="text" name="text" placeholder="В свободной форме" required></textarea>
+
+            <input class="btn btn-red" type="submit" value="Отправить">
+            <input class="btn" type="reset" value="Отмена">
+        </form>
+    </div>
 </body>
 </html>
