@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Дизайн-студия Nerds</title>
+<!--    <link rel="stylesheet" href="css/reset.css">-->
+<!--    <link rel="stylesheet" href="css/style.css">-->
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a class="logo"><img src="http://placehold.it/150x100" alt="Дизайн студия Nёrds" width="140" height="56"></a>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a class="active" href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <a class="cart">Корзина</a>
+
+            <h1 class="header-title">Добро пожаловать в магазин готовых макетов</h1>
+        </div>     
+    </header>
+        
+    <div class="container">
+        <aside class="sidebar-layouts">
+            <form method="post" action="#">
+                <h2 class="title-filter">Стоимость</h2>
+
+                <div class="scale">
+                    <button class="scale-min" type="button"></button>
+                    <button class="scale-max" type="button"></button>
+                </div>
+                <div class="cost-group">
+                    <label>от <input class="cost-input-in" type="text" name="cost-in" value="0"></label>
+                    <label>до <input class="cost-input-out" type="text" name="cost-out" value="15000"></label>
+                </div>
+
+                <h2 class="filter-title">Сетка:</h2>
+                <input class="input-radio" type="radio" id="grid1" name="grid" checked>
+                <label for="grid1">Адаптивная</label>
+                <input class="input-radio" type="radio" id="grid2" name="grid">
+                <label for="grid2">Фиксированная</label>
+                <input class="input-radio" type="radio" id="grid3" name="grid">
+                <label for="grid3">Резиновая</label>
+
+                <h2 class="filter-title">Особенности:</h2>
+                <input class="input-check" type="checkbox" id="feature1" name="feature" checked>
+                <label for="feature1">Слайдер</label>
+                <input class="input-check" type="checkbox" id="feature2" name="feature">
+                <label for="feature2">Блок преимуществ</label>
+                <input class="input-check" type="checkbox" id="feature3" name="feature" checked>
+                <label for="feature3">Новости</label>
+                <input class="input-check" type="checkbox" id="feature4" name="feature">
+                <label for="feature4">Галерея</label>
+                <input class="input-check" type="checkbox" id="feature5" name="feature">
+                <label for="feature5">Корзина</label>
+
+                <a href="#" class="btn">Показать</a>
+            </form>
+        </aside>
+        
+        <div class="layouts-header">
+            <div class="sort-type">
+              <div class="layouts-sort-title">Сортировать:</div>
+              <a class="active-sort-type" href="#">по цене</a>
+              <a href="#">по типу</a>
+              <a href="#">по рейтингу</a>
+            </div>
+
+            <div class="sort">
+              <a class="icon-up" href="#"></a>
+              <a class="icon-down icon-active" href="#"></a>
+            </div>
+        </div>
+        
+        <section class="layout-item">
+            <div class="layout-item-info">
+                <div class="layout-title">Aviator</div>
+                <p class="layout-text">Интернет-магазин с личным кабинетом</p>
+                <a class="btn btn-red" href="#">10 000 Р.</a>
+            </div>
+            <img src="http://placehold.it/150x100" alt="Aviator" width="240" height="240">
+        </section>
+        
+        <section class="layout-item">
+            <div class="layout-item-info">
+                <div class="layout-title">Sunset</div>
+                <p class="layout-text">Интернет-магазин с личным кабинетом</p>
+                <a class="btn btn-red" href="#">10 000 Р.</a>
+            </div>
+            <img src="http://placehold.it/150x100" alt="Sunset" width="240" height="240">
+        </section>
+        
+        <section class="layout-item">
+            <div class="layout-item-info">
+                <div class="layout-title">Forte</div>
+                <p class="layout-text">Интернет-магазин с личным кабинетом</p>
+                <a class="btn btn-red" href="#">10 000 Р.</a>
+            </div>
+            <img src="http://placehold.it/150x100" alt="Forte" width="240" height="240">
+        </section>
+        
+        <section class="layout-item">
+            <div class="layout-item-info">
+                <div class="layout-title">Thai</div>
+                <p class="layout-text">Интернет-магазин с личным кабинетом</p>
+                <a class="btn btn-red" href="#">10 000 Р.</a>
+            </div>
+            <img src="http://placehold.it/150x100" alt="Thai" width="240" height="240">
+        </section>
+        
+        <section class="layout-item">
+            <div class="layout-item-info">
+                <div class="layout-title">Avenue</div>
+                <p class="layout-text">Интернет-магазин с личным кабинетом</p>
+                <a class="btn btn-red" href="#">10 000 Р.</a>
+            </div>
+            <img src="http://placehold.it/150x100" alt="Avenue" width="240" height="240">
+        </section>
+        
+        <section class="layout-item">
+            <div class="layout-item-info">
+                <div class="layout-title">Dovetail</div>
+                <p class="layout-text">Интернет-магазин с личным кабинетом</p>
+                <a class="btn btn-red" href="#">10 000 Р.</a>
+            </div>
+            <img src="http://placehold.it/150x100" alt="Dovetail" width="240" height="240">
+        </section>
+        
+        <ul class="page-number">
+            <li><a href="#" class="btn active">1</a></li>
+            <li><a href="#" class="btn">2</a></li>
+            <li><a href="#" class="btn">3</a></li>
+            <li><a href="#" class="btn next-btn">Следующая</a></li>
+        </ul>
+    </div>
+    
+    <footer class="main-footer">
+        <div class="map"></div>
+                
+        <div class="social-container">
+            <div class="footer-socials">
+                <a class="btn icon-vk" href="#">vkontakte</a>
+                <a class="btn icon-fb" href="#">facebook</a>
+                <a class="btn icon-inst" href="#">instagram</a>
+            </div>
+            <div class="friend">
+                <h1 class="social-title">Давайте дружить, это выгодно!</h1>
+                <p>Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="write-us-form">
+        <div class="write-us">
+          <div class="write-us-title">Nёrds design studio</div>
+          <p class="city">350000, Краснодар,<br> ул. Головатого, 100</p>
+          <p class="phone">тел. +7 (861) 275-75-75</p>
+          <a class="btn btn-red" href="#">Напишите нам</a>
+        </div>
+        
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input class="input-check" id="name" name="name" type="text" placeholder="Представьтесь, пожалуйста" required>
+
+            <label for="email">Ваш e-mail:</label>
+            <input class="input-check" id="email" name="email" type="email" placeholder="Для отправки ответа" required>
+
+            <label for="text">Текст письма:</label>
+            <textarea id="text" name="text" placeholder="В свободной форме" required></textarea>
+
+            <input class="btn btn-red" type="submit" value="Отправить">
+            <input class="btn" type="reset" value="Отмена">
+        </form>
+    </div>
+</body>
+</html>
